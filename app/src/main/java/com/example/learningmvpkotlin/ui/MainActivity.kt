@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity(), MainView {
     }
 
     override fun hasilPresenter(data: Data) {
-        //menampilkan datat
+        //menampilkan data
         Log.e("Hasil", data.dataHasil.toString())
     }
 }
